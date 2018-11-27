@@ -3,7 +3,7 @@ def max(a,b,c):          #define function
  if(a>b and a>c):        #starts if loop
   terminal
  elif(b>a and b>c):
-  return b               
+  return b               #returns value of b
  else:
-  return c
-print(max(23,17,65))    #prints final output
+  return c               #returns value of c
+print(max(23,17,65))     #prints final output
